@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5285494C26DE2CAA00AA4EEC /* SoptTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285494B26DE2CAA00AA4EEC /* SoptTableViewCell.swift */; };
+		5285495026DE2D2D00AA4EEC /* SoptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285494F26DE2D2D00AA4EEC /* SoptViewController.swift */; };
+		5285495226DE6E9E00AA4EEC /* ServiceListDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285495126DE6E9E00AA4EEC /* ServiceListDataModel.swift */; };
 		52B0F1B026DB957900F85EE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B0F1AF26DB957900F85EE1 /* AppDelegate.swift */; };
 		52B0F1B226DB957900F85EE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B0F1B126DB957900F85EE1 /* SceneDelegate.swift */; };
 		52B0F1B426DB957900F85EE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B0F1B326DB957900F85EE1 /* ViewController.swift */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5285494B26DE2CAA00AA4EEC /* SoptTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoptTableViewCell.swift; sourceTree = "<group>"; };
+		5285494F26DE2D2D00AA4EEC /* SoptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoptViewController.swift; sourceTree = "<group>"; };
+		5285495126DE6E9E00AA4EEC /* ServiceListDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceListDataModel.swift; sourceTree = "<group>"; };
 		52B0F1AC26DB957900F85EE1 /* Sopt_28th_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sopt_28th_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B0F1AF26DB957900F85EE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52B0F1B126DB957900F85EE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +78,9 @@
 				52B0F1C726DB9E8C00F85EE1 /* LoginViewController.swift */,
 				52B0F1C926DB9EE900F85EE1 /* SignupViewController.swift */,
 				52B0F1CB26DB9F4000F85EE1 /* ConfirmViewController.swift */,
+				5285494B26DE2CAA00AA4EEC /* SoptTableViewCell.swift */,
+				5285494F26DE2D2D00AA4EEC /* SoptViewController.swift */,
+				5285495126DE6E9E00AA4EEC /* ServiceListDataModel.swift */,
 			);
 			path = Sopt_28th_Project;
 			sourceTree = "<group>";
@@ -146,12 +155,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5285495026DE2D2D00AA4EEC /* SoptViewController.swift in Sources */,
 				52B0F1C826DB9E8C00F85EE1 /* LoginViewController.swift in Sources */,
 				52B0F1B426DB957900F85EE1 /* ViewController.swift in Sources */,
 				52B0F1CA26DB9EE900F85EE1 /* SignupViewController.swift in Sources */,
 				52B0F1CC26DB9F4000F85EE1 /* ConfirmViewController.swift in Sources */,
 				52B0F1B026DB957900F85EE1 /* AppDelegate.swift in Sources */,
 				52B0F1B226DB957900F85EE1 /* SceneDelegate.swift in Sources */,
+				5285494C26DE2CAA00AA4EEC /* SoptTableViewCell.swift in Sources */,
+				5285495226DE6E9E00AA4EEC /* ServiceListDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
