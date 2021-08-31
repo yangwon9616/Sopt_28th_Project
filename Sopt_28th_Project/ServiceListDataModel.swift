@@ -13,4 +13,6 @@ struct ServiceListDataModel {
     var profileImage : String
     var name : String
     var state : String
+    
+    //github test
 }
